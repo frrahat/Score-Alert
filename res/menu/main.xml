@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.frrahat.scorealert.MainActivity" >
+
+    <!-- <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/> -->
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/action_lock_line"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Lock This Line"/>
+    
+    <item
+        android:id="@+id/action_set_refresh_delay"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Set Refresh Delay (seconds)"/>
+    
+    <item
+        android:id="@+id/action_toggle_screen_state"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_toggle_screen_to_on"/>
+    
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_score_alert_help"/>
+
+</menu>
